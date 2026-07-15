@@ -2,19 +2,19 @@ function Header() {
   return <h1>Simple React Application</h1>
 }
 
-function Content() {
-  return <p>This is my first React Application, wish me luck!</p>
+function Content(props) {
+  return <p>{props.text}</p>
 }
 
 function Footer() {
-  return <h5>Created by Fredy Chilito</h5>
+  return <h2>Created by Fredy Chilito</h2>
 }
 
 export default function App() {
   return (
     <>
       <Header />
-      <Content />
+      <Content text="This is my first React Application!" />
       <Footer />
     </>
   )

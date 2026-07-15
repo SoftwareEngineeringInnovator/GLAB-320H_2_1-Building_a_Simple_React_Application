@@ -14,7 +14,11 @@ export default function App() {
   return (
     <>
       <Header />
+
       <Content text="This is my first React Application!" />
+      <Content text="Wish me luck..." />
+      <Content text="I think I've got it!" />
+
       <Footer />
     </>
   )
